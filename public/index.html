@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de filmes</title>
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="assets/css/styles.css">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
     
@@ -26,21 +26,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imgs/20055685.webp" class="d-block w-100" alt="...">
+            <img src="assets/scripts/imgs/20055685.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Titanic</h5>
               <p class="vm" onclick="navigateTo('titanic')">Ver mais </p> 
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imgs/2428965.jpg" class="d-block w-100" alt="...">
+            <img src="assets/scripts/imgs/2428965.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Vingadores Ultimato</h5>
               <p class="vm" onclick="navigateTo('vingadores')">Ver mais </p> 
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imgs/poster-avatar-2-bra_96b8c77c.jpg" class="d-block w-100" alt="...">
+            <img src="assets/scripts/imgs/poster-avatar-2-bra_96b8c77c.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Avatar 2</h5>
               <p class="vm" onclick="navigateTo('avatar')">Ver mais </p> 
@@ -62,7 +62,7 @@
         <h3>Todos os Itens</h3> 
         <div class="card-group">
           <div class="card">
-            <img src="imgs/Poster-turma-da-monica-lacos.jpg" class="card-img-top" alt="...">
+            <img src="assets/scripts/imgs/Poster-turma-da-monica-lacos.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Turma da Mônica: Laços</h5>
               <p class="card-text">Livre ‧ 2019 ‧ Infantil/Aventura ‧ 1h 37m</p>
@@ -72,7 +72,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="imgs/Moana_2_poster.jpg" class="card-img-top" alt="...">
+            <img src="assets/scripts/imgs/Moana_2_poster.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title"> Moana 2</h5>
               <p class="card-text">Livre ‧ 2024 ‧ Infantil/Aventura ‧ 1h 40m</p>
@@ -82,7 +82,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="imgs/Interstellar_Filme.png" class="card-img-top" alt="...">
+            <img src="assets/scripts/imgs/Interstellar_Filme.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Interstelar</h5>
               <p class="card-text">10 ‧ 2014 ‧ Ficção científica/Aventura ‧ 2h 49m
@@ -95,7 +95,7 @@
         </div>
         <div class="card-group">
   <div class="card">
-    <img src="imgs/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpeg" class="card-img-top" alt="...">
+    <img src="assets/scripts/imgs/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Doutor Estranho no Multiverso da Loucura</h5>
       <p class="card-text">14 ‧ 2022 ‧ Fantasia/Ação ‧ 2h 6m
@@ -106,7 +106,7 @@
     </div>
   </div>  
   <div class="card">
-    <img src="imgs/0695770.webp" class="card-img-top" alt="...">
+    <img src="assets/scripts/imgs/0695770.webp" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Oppenheimmer</h5>
       <p class="card-text">16 ‧ 2023 ‧ Suspense/Obra de Época ‧ 3 horas
@@ -117,7 +117,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="imgs/1042_c.jpg" class="card-img-top" alt="...">
+    <img src="assets/scripts/imgs/1042_c.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Um Filme Minecraft</h5>
       <p class="card-text">10 ‧ 2025 ‧ Aventura/Ação ‧ 1h 41m
@@ -135,7 +135,7 @@
   </script> 
 
   <header>
-        <h1>Movie Registration</h1>
+        <h1>Cadastro de Filmes</h1>
     </header>
     
     <main>
@@ -166,7 +166,7 @@
                     <th>Genre</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="moviesTableBody">
                 <!-- Movie entries will be populated here -->
             </tbody>
         </table>
@@ -216,7 +216,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script src="app.js"></script> 
+    <script src="assets/scripts/app.js"></script> 
     
 </body>
 </html>

@@ -1,18 +1,92 @@
 {
-  "usuarios": [
+  "filmes": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "turmadamonica",
+      "title": "Turma da Mônica: Laços",
+      "description": "Livre ‧ 2019 ‧ Infantil/Aventura ‧ 1h 37m",
+      "synopsis": "Sinópse: O Floquinho desaparece. Para encontrar seu cachorro de estimação, Cebolinha conta com os amigos Cascão, Mônica e Magali e, claro, um plano infalível.",
+      "image": "assets/scripts/imgs/Poster-turma-da-monica-lacos.jpg",
+      "year": "2019",
+      "genre": "Infantil/Aventura"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "moana",
+      "title": "Moana 2",
+      "description": "Livre ‧ 2024 ‧ Infantil/Aventura ‧ 1h 40m",
+      "synopsis": "Sinópse: Moana 2 é a continuação da história de Moana, uma jovem corajosa que embarca em uma nova aventura para salvar seu povo e descobrir mais sobre suas raízes. Junto com seu amigo Maui, ela enfrentará novos desafios e encontrará novos amigos pelo caminho.",
+      "image": "assets/scripts/imgs/Moana_2_poster.jpg",
+      "year": "2024",
+      "genre": "Infantil/Aventura"
+    },
+    {
+      "id": "interstelar",
+      "title": "Interstellar",
+      "description": "12 anos ‧ 2014 ‧ Ficção científica/Aventura ‧ 2h 49m",
+      "synopsis": "Sinópse: Um grupo de exploradores viaja através de um buraco de minhoca em busca de um novo lar para a humanidade.",
+      "image": "assets/scripts/imgs/Interstellar_Filme.png",
+      "year": "2014",
+      "genre": "Ficção científica/Aventura"
+    },
+    {
+      "id": "dtr",
+      "title": "Doutor Estranho no Multiverso da Loucura",
+      "description": "12 anos ‧ 2022 ‧ Ação/Fantasia ‧ 2h 6m",
+      "synopsis": "Sinópse: Doutor Estranho protege uma jovem que possui um poder misterioso e que é perseguida por uma força sombria.",
+      "image": "assets/scripts/imgs/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpeg",
+      "year": "2022",
+      "genre": "Ação/Fantasia"
+    },
+    {
+      "id": "oppenheimmer",
+      "title": "Oppenheimer",
+      "description": "14 anos ‧ 2023 ‧ Biografia/Drama ‧ 3h 0m",
+      "synopsis": "A história de J. Robert Oppenheimer, o físico que liderou o projeto Manhattan e ajudou a criar a primeira bomba atômica.",
+      "image": "assets/scripts/imgs/0695770.webp",
+      "year": "2023",
+      "genre": "Biografia/Drama"
+    },
+    {
+      "id": "minecraft",
+      "title": "Um filme de Minecraft",
+      "description": "Livre ‧ 2024 ‧ Aventura/Fantasia ‧ 1h 30m",
+      "synopsis": "Sinópse: Um filme de Minecraft é uma aventura épica que leva os jogadores a um mundo cheio de desafios e criaturas fantásticas, onde eles devem usar sua criatividade e habilidades para sobreviver e prosperar.",
+      "image": "assets/scripts/imgs/1042_c.jpg",
+      "year": "2024",
+      "genre": "Aventura/Fantasia"
+    },
+    {
+      "id": "titanic",
+      "title": "Titanic",
+      "description": "12 anos ‧ 1997 ‧ Romance/Drama ‧ 3h 14m",
+      "synopsis": "Sinópse: Um jovem artista e uma jovem aristocrata se apaixonam a bordo do infame navio Titanic, que afunda em sua viagem inaugural.",
+      "image": "assets/scripts/imgs/20055685.webp",
+      "year": "1997",
+      "genre": "Romance/Drama"
+    },
+    {
+      "id": "vingadores",
+      "title": "Vingadores: Ultimato",
+      "description": "12 anos ‧ 2019 ‧ Ação/Fantasia ‧ 3h 1m",
+      "synopsis": "Sinópse: Os Vingadores se reúnem para reverter os danos causados por Thanos em uma batalha épica que pode mudar o destino do universo.",
+      "image": "assets/scripts/imgs/2428965.jpg",
+      "year": "2019",
+      "genre": "Ação/Fantasia"
+    },
+    {
+      "id": "avatar",
+      "title": "Avatar: O Caminho da Água",
+      "description": "12 anos ‧ 2022 ‧ Ação/Fantasia ‧ 3h 12m",
+      "synopsis": "Sinópse: Jake Sully e Neytiri lutam para proteger sua família e seu lar em Pandora, enquanto enfrentam novos desafios e inimigos.",
+      "image": "assets/scripts/imgs/poster-avatar-2-bra_96b8c77c.jpg",
+      "year": "2022",
+      "genre": "Ação/Fantasia"
+    },
+    {
+      "id": "lilioestich",
+      "title": "Lilio e Stich",
+      "year": "2025",
+      "genre": "Comédia",
+      "director": null
     }
   ]
 }
