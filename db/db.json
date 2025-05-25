@@ -82,11 +82,18 @@
       "genre": "Ação/Fantasia"
     },
     {
-      "id": "lilioestich",
-      "title": "Lilio e Stich",
+      "title": "Lilio e Stich ",
       "year": "2025",
       "genre": "Comédia",
-      "director": null
+      "director": "Dean Camp",
+      "id": "lilioestich"
+    },
+    {
+      "title": "Nosferatu",
+      "year": "2023",
+      "genre": "Terror",
+      "director": "Robert Eggers",
+      "id": "nosferatu"
     }
   ]
 }
