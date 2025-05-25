@@ -5,10 +5,10 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Bruno Fernandes
+- Matricula:897189
+- Proposta de projeto escolhida:Site de Filmes
+- Breve descrição sobre seu projeto: Site de filmes variados com funcionalidades do CRUD
 
 **Print do testes da API com Postman ou similar**
 
